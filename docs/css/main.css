@@ -1,0 +1,183 @@
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    #col1, #col2 {
+      width: 100%;
+    }
+  }
+
+/* <!-- */
+body {
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #616060;
+}
+#header h1,
+#header h2,
+#header p {
+	margin-left:2%;
+	padding-right:2%;
+}
+#active2 #tab2,
+#active3 #tab3,
+#active4 #tab4,
+#active5 #tab5 {
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+#footer p {
+	margin-left:2%;
+	padding-right:2%;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+/* Left div */
+#avatar {
+	background-color: #ffda62; 
+	margin: 0px 0px 10px 0px;
+	padding: 25px 0 10px 0;
+	align-items: center;
+	text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.separator {
+	background-color: #000;
+	color: #CCC;
+	font-size: 15pt;
+	font-weight: normal;
+	text-align: center;
+
+	margin: -10px 0 0 0;
+	padding: 5px 0px 5px 0px;
+}
+
+.text_left {
+	background-color: #ffda62; 
+	font-size: 12pt;
+
+	margin: -0px 0 0 0px;
+	padding: 5px 40px 10px 40px;
+}
+
+.about {
+	padding-bottom: 100px;
+	vertical-align: top;
+	min-height: 700px;
+}
+
+#hobbies {
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+/* Start of Column CSS */
+#container1, #container2, #col1, #col2 {
+    float:left;
+	position:relative;
+}
+
+#container2, #col1, #col2 {
+    overflow:hidden;
+}
+
+#container2 {
+    clear:left;
+	width:100%;
+	background:#fff; /* column 2 background colour */
+}
+
+#container1 {
+	width:100%;
+	right:82%;
+	background:#fff; /* column 1 background colour */
+}
+
+#col1 {
+	width:20%;
+	left:83%;
+}
+
+#col2 {
+	width:70%;
+	left:88%;
+}
+
+#resume {
+	margin-top: 70px;
+}
+.separator, .tx-orange {
+	color: #f79e4b;
+}
+
+h2 {
+	font-size: 30pt;
+	font-weight: normal;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h3 {
+    border-bottom:1px solid #CCC;
+    padding: 15px 10px 3px 0px;
+}
+
+.icon-text {
+	padding-right: 30px;
+}
+
+
+h4 {
+	margin-top: 2px;
+	padding-top: 0;
+	margin-bottom: 90px;
+	font-weight: normal;
+}
+
+h5 {
+	margin: 0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+	font-weight: normal;
+}
+
+h4:after {
+    content:' ';
+    display:block;
+    border:1px solid #f79e4b;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+	width: 90px;
+}
+
+.icon-date {
+	padding-right: 10px;
+}
+
+.tbl-top {
+	vertical-align: top;
+}
+
+.tbl-left {
+	width: 100px;
+}
+
+/* --> */
